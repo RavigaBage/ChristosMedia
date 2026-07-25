@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Christos Media</title>
+<meta name="description" content="Get in touch with Christos Media. We'd love to hear from you.">
+<meta name="theme-color" content="#14205A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2314205A'/%3E%3Cpath d='M40 20a13 13 0 1 0 0 24' stroke='white' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300..700;1,300..700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header id="site-header">
+  <div class="container nav-row">
+    <a href="/index.html" class="brand">
+      <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none"><path d="M16 8a6 6 0 1 0 0 8" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg></span>
+      <span class="brand-text"><b>CHRISTOS MEDIA</b><span>Giving hope for living</span></span>
+    </a>
+    <input type="checkbox" id="nav-toggle">
+    <nav class="primary-nav">
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/our-role.html">Our Role</a>
+      <a href="/what-we-do.html">What We Do</a>
+      <a href="/impact.html">Impact</a>
+      <a href="/partner.html">Partner & Give</a>
+      <a href="/contact.html" aria-current="page">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="/partner.html" class="btn btn-ghost btn-sm">Partner With Us</a>
+      <a href="/partner.html#give" class="btn btn-primary btn-sm">Give</a>
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu"><span></span></label>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="contact" style="padding-top: 140px; padding-bottom: 100px;">
+    <div class="container about-grid">
+      <div class="reveal">
+        <span class="eyebrow">Contact Us</span>
+        <h1 class="section-title">Get in Touch</h1>
+        <p>We'd love to hear from you. Whether you have questions about our mission, want to partner with us, or just want to say hello.</p>
+        <div style="margin-top: 40px; display: flex; flex-direction: column; gap: 20px;">
+          <div>
+            <h4 style="font-family: 'Inter'; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--navy);">Address</h4>
+            <p style="margin: 0;">Hse No. Yr711, Pearl Street, Kasoa, Ghana</p>
+          </div>
+          <div>
+            <h4 style="font-family: 'Inter'; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--navy);">Email</h4>
+            <p style="margin: 0;"><a href="mailto:christosmedia@gmail.com" style="color: var(--blue);">christosmedia@gmail.com</a></p>
+          </div>
+          <div>
+            <h4 style="font-family: 'Inter'; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--navy);">Phone</h4>
+            <p style="margin: 0;">0205 836 338 / 0246 815 041</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="reveal" style="background: var(--paper); padding: 40px; border-radius: 20px; border: 1px solid var(--line);">
+        <form style="display: flex; flex-direction: column; gap: 20px;" onsubmit="event.preventDefault();">
+          <div>
+            <label for="name" style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.9rem;">Name</label>
+            <input type="text" id="name" style="width: 100%; padding: 12px 16px; border-radius: 8px; border: 1px solid var(--line); font-family: 'Inter'; font-size: 1rem;" required>
+          </div>
+          <div>
+            <label for="email" style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.9rem;">Email</label>
+            <input type="email" id="email" style="width: 100%; padding: 12px 16px; border-radius: 8px; border: 1px solid var(--line); font-family: 'Inter'; font-size: 1rem;" required>
+          </div>
+          <div>
+            <label for="message" style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.9rem;">Message</label>
+            <textarea id="message" rows="5" style="width: 100%; padding: 12px 16px; border-radius: 8px; border: 1px solid var(--line); font-family: 'Inter'; font-size: 1rem; resize: vertical;" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <section class="steps" style="padding-top: 0; padding-bottom: 100px;">
+    <div class="container">
+      <div class="volunteer-cta reveal" style="margin-top: 0;">
+        <div>
+          <h3>Prefer to give your time instead?</h3>
+          <p>Join our team of counsellors with direct access to souls who've been won and need to be empowered — based on your own skill set.</p>
+        </div>
+        <a href="/contact.html" class="btn btn-primary">Volunteer With Us</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand reveal">
+        <a href="/index.html" class="brand">
+          <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none"><path d="M16 8a6 6 0 1 0 0 8" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg></span>
+          <span class="brand-text"><b>CHRISTOS MEDIA</b><span>Giving hope for living</span></span>
+        </a>
+        <p>A non-denominational Christian organization redefining media with the gospel of our Lord and Savior Jesus Christ, since 2012.</p>
+      </div>
+      <div class="reveal">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/our-role.html">Our Role</a></li>
+          <li><a href="/what-we-do.html">What We Do</a></li>
+          <li><a href="/impact.html">Our Impact</a></li>
+          <li><a href="/partner.html">Partnership Packages</a></li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:christosmedia@gmail.com">christosmedia@gmail.com</a></li>
+          <li><a href="tel:0205836338">0205 836 338</a></li>
+          <li><a href="tel:0246815041">0246 815 041</a></li>
+          <li><span>Hse No. Yr711, Pearl Street, Kasoa, Ghana</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Christos Media. All rights reserved.</span>
+      <span>&ldquo;Giving hope for living&rdquo; — Acts 26:18</span>
+    </div>
+  </div>
+</footer>
+<script src="/main.js"></script>
+</body>
+</html>
